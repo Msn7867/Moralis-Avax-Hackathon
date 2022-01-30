@@ -1,4 +1,5 @@
-The Avalanche token, or AVAX, is a utility token that serves as the ecosystem's common medium of exchange. Besides its use as currency in the Avalanche world, AVAX staking secures the network and rewards stakers with more AVAX. Compounding the value derived from staking is the AVAX deflationary token mechanism
+The Avalanche Token, Or Avax, Is A Utility Token That Serves As The Ecosystem's Common Medium Of Exchange. Besides Its Use As Currency In The Avalanche World, Avax Staking Secures The Network And Rewards Stakers With More Avax. Compounding The Value Derived From Staking Is The Avax Deflationary Token Mechanism
+
 
 ![ssi](https://i.postimg.cc/t4b8NyND/ssi.png)
 ![ssii](https://i.postimg.cc/J7Dw1ph3/ssii.png)

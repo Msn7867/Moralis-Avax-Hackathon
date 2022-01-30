@@ -8,6 +8,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
+    fontSize: "14px",
     overflow: "auto",
   },
   row: {
@@ -15,13 +16,18 @@ const styles = {
     justifyContent: "flex-start",
     alignItems: "center",
     padding: "15px 20px",
+    fontSize: "14px",
     borderTop: "1px solid #e7eaf3",
+  },
+  h3 : {
+    fontSize: "0.90rem",
   },
   right: {
     textAlign: "left",
     marginLeft: "15px",
+    fontSize: "14px",
   },
-  text: { display: "inline", marginRight: "10px" },
+  text: { display: "inline", marginRight: "10px", fontSize: "14px", },
 };
 export default function Assets() {
   const { assets } = useERC20Balance();

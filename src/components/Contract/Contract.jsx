@@ -29,7 +29,7 @@ export default function Contract() {
   };
 
   return (
-    <div style={{ margin: "auto", width: "40vw" }}>
+    <div style={{ margin: "auto", width: "80vw" ,height: "90vw", top: "35px", right : "0px", textTransform: "capitalize" }}>
       <Card
         title={
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>

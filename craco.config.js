@@ -8,29 +8,29 @@ module.exports = {
         lessLoaderOptions: {
           lessOptions: {
             modifyVars: {
-              "@component-background": "#001529",
+              "@component-background": "#FF0000",
               "@text-color": "white",
               "@primary-5": "white",
-              "@primary-color": "darkslategrey",
-              "@heading-color": "#21bf96",
-              "@layout-header-background": "#001529", //header background
-              "@menu-item-active-bg": "darkslategrey", //menu top color
-              "@menu-dark-item-active-bg": "darkslategrey", //menu top color
-              "@link-color": "#21bf96", //green color for text
+              "@primary-color": "#000000",
+              "@heading-color": "#000000",
+              "@layout-header-background": "#FF0000", //header background
+              "@menu-item-active-bg": "#000000", //menu top color
+              "@menu-dark-item-active-bg": "#000000", //menu top color
+              "@link-color": "#000000", //green color for text
               "@timeline-dot-bg": "transparent",
               //table
-              "@table-bg": "#001529",
-              "@table-header-bg": "#001529",
-              "@table-header-color": "#21bf96",
-              "@table-row-hover-bg": "darkslategrey",
+              "@table-bg": "#FF0000",
+              "@table-header-bg": "#FF0000",
+              "@table-header-color": "#000000",
+              "@table-row-hover-bg": "#000000",
               //table pagination
-              "@pagination-item-bg": "#001529",
-              "@pagination-item-bg-active": "darkslategrey",
-              "@pagination-item-input-bg": "#001529",
+              "@pagination-item-bg": "#FF0000",
+              "@pagination-item-bg-active": "#000000",
+              "@pagination-item-input-bg": "#FF0000",
               //button
-              "@btn-link-hover-bg": "#001529",
+              "@btn-link-hover-bg": "#FF0000",
               //icons
-              "@icon-color-hover": "#001529",
+              "@icon-color-hover": "#FF0000",
               "@icon-color": "white",
             },
             javascriptEnabled: true,

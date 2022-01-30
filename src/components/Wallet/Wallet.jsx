@@ -8,16 +8,25 @@ import Blockie from "../Blockie";
 
 const styles = {
   title: {
-    fontSize: "30px",
-    fontWeight: "600",
+    fontSize: "25px",
+    fontWeight: "400",
+    textAlign: "center",
+    color:"white",
+    justifyContent:"center",
+    alignItems:"center",
+ 
   },
   header: {
     paddingTop: "20px",
-    fontWeight: "700",
-    fontSize: "18px",
+    fontWeight: "400",
+    fontSize: "20px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    backgroundColor: "#FF0000"
+  },
+  h3 : {
+    fontSize: "0.90rem",
   },
   card: {
     width: "450px",
@@ -26,7 +35,11 @@ const styles = {
     marginBottom: "20px",
     display: "flex",
     alignItems: "center",
+    fontSize: "14px",
+    color: "black",
     flexDirection: "column",
+    margin: "auto", width: "80vw" ,height: "90vw", top: "35px", right : "0px", textTransform: "uppercase",
+    backgroundColor : "#FF0000"
   },
   navLinks: {
     display: "flex",
@@ -38,11 +51,11 @@ const styles = {
   },
   navLink: {
     textDecoration: "none",
-    fontWeight: "700",
-    color: "#4b5552",
+    fontWeight: "400",
+    color: "#000000",
   },
   activeLink: {
-    color: "#21BF96",
+    color: "#000000",
   },
 };
 

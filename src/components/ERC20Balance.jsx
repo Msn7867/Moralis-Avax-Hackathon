@@ -4,9 +4,14 @@ import { Skeleton, Table, Image } from "antd";
 import { getEllipsisTxt } from "../helpers/formatters";
 const styles = {
   title: {
-    fontSize: "30px",
-    fontWeight: "700",
+    fontSize: "25px",
+    fontWeight: "400",
+    textAlign: "center",
+    color:"white",
+    justifyContent:"center",
+    alignItems:"center",
   },
+
 };
 function ERC20Balance(props) {
   const { assets } = useERC20Balance(props);
@@ -53,7 +58,7 @@ function ERC20Balance(props) {
   ];
 
   return (
-    <div style={{ width: "65vw", padding: "15px" }}>
+    <div style={{ width: "80vw", padding: "15px" }}>
       <h1 style={styles.title}>💰Token Balances</h1>
       <Skeleton loading={!assets}>
         <Table

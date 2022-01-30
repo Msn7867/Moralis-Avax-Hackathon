@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useMoralis } from "react-moralis";
 import { Card, Image, Tooltip, Modal, Input } from "antd";
-import { useNFTBalance } from "hooks/useNFTBalance";
+import { useNFTBalance } from "../hooks/useNFTBalance";
 import { FileSearchOutlined, SendOutlined, ShoppingCartOutlined } from "@ant-design/icons";
-import { useMoralisDapp } from "providers/MoralisDappProvider/MoralisDappProvider";
-import { getExplorer } from "helpers/networks";
+import { useMoralisDapp } from "../providers/MoralisDappProvider/MoralisDappProvider";
+import { getExplorer } from "../helpers/networks";
 import AddressInput from "./AddressInput";
 const { Meta } = Card;
 

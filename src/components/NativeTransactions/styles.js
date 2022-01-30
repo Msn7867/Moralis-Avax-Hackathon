@@ -2,6 +2,12 @@ const styles = {
   title: {
     fontSize: "30px",
     fontWeight: "700",
+    margin: "auto", width: "80vw" ,height: "90vw", top: "35px", right : "0px", textTransform: "capitalize", fontSize: "25px",
+    fontWeight: "400",
+    textAlign: "center",
+    color:"white",
+    justifyContent:"center",
+    alignItems:"center",
   },
   card: {
     padding: "20px",
@@ -11,6 +17,7 @@ const styles = {
     border: "2px solid #e7eaf3",
     borderRadius: "15px",
     marginBottom: "20px",
+    width : "80vh",
   },
   table: {
     tableLayout: "fixed",

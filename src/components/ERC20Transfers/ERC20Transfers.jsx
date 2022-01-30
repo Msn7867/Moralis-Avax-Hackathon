@@ -61,8 +61,8 @@ function ERC20Transfers() {
 
   let key = 0;
   return (
-    <div style={{ width: "65vw", padding: "15px" }}>
-      <h1 style={styles.title}>💸ERC20 Transfers</h1>
+    <div style={{ width: "80vw", padding: "15px" ,margin: "auto" ,height: "90vw", top: "35px", right : "0px", textTransform: "capitalize"}}>
+      <h1 style={styles.title}>💸AVAX TRANSFERS</h1>
       <Skeleton loading={!ERC20Transfers}>
         <Table
           dataSource={ERC20Transfers}

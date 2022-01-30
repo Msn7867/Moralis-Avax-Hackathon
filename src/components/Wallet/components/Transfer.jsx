@@ -6,18 +6,25 @@ import TokenList from "./TokenList";
 const styles = {
   card: {
     alignItems: "center",
+    fontSize: "14px",
     width: "100%",
   },
   tranfer: {
     padding: "20px",
     borderBottom: "2px solid rgba(0, 0, 0, 0.06)",
+    fontSize: "14px",
   },
   header: {
     textAlign: "center",
+    fontSize: "14px",
+  },
+  h3 : {
+    fontSize: "0.90rem",
   },
   input: {
     width: "100%",
     outline: "none",
+    fontSize: "14px",
     fontSize: "16px",
     whiteSpace: "nowrap",
     overflow: "hidden",
@@ -32,6 +39,7 @@ const styles = {
     marginTop: "20px",
     display: "flex",
     alignItems: "center",
+    fontSize: "14px",
     gap: "20px",
   },
 
@@ -39,6 +47,7 @@ const styles = {
     display: "flex",
     marginLeft: "25px",
     alignItems: "center",
+    fontSize: "14px",
     gap: "10px",
     flexDirection: "row",
   },
@@ -47,21 +56,23 @@ const styles = {
     width: "100%",
     border: "0px",
     cursor: "pointer",
-    fontSize: "16px",
+    fontSize: "13px",
     justifyContent: "center",
     alignItems: "center",
     fontWeight: "600",
+    textTransform: "uppercase",
     borderRadius: "8px",
     outline: "0px",
     height: "46px",
     color: "white",
-    backgroundColor: "#21BF96",
+    backgroundColor: "#000000",
   },
   field: {
     backgroundColor: "aliceblue",
     borderRadius: "8px",
-    height: "45px",
+    height: "35px",
     alignItems: "center",
+    fontSize: "14px",
     display: "flex",
     width: "100%",
     padding: "0 10px",
@@ -105,18 +116,18 @@ function Transfer() {
     <div style={styles.card}>
       <div style={styles.tranfer}>
         <div style={styles.header}>
-          <h3>Transfer Assets</h3>
+          <h6>Transfer Assets</h6>
         </div>
         <div style={styles.select}>
-          <h3>Address:</h3>
+          <h6>Address:</h6>
           <AddressInput
             autoFocus
-            placeholder="Public address (0x)"
+            placeholder="Public Addresses (0x)"
             onChange={setReceiver}
           />
         </div>
         <div style={styles.select}>
-          <h3>Amount:</h3>
+          <h6>Amount:</h6>
           <div style={styles.field}>
             <input
               style={styles.input}
@@ -127,7 +138,7 @@ function Transfer() {
           </div>
         </div>
         <div style={styles.select}>
-          <h3>Asset:</h3>
+          <h6>Asset:</h6>
           {token && (
             <div className="row" style={styles.row}>
               {token.logo ? (
@@ -135,8 +146,8 @@ function Transfer() {
                   src={token.logo}
                   alt={token.symbol}
                   style={{
-                    maxWidth: "25px",
-                    maxHeight: "25px",
+                    maxWidth: "15px",
+                    maxHeight: "15px",
                     borderRadius: "15px",
                   }}
                 />
@@ -145,8 +156,8 @@ function Transfer() {
                   src="https://etherscan.io/images/main/empty-token.png"
                   alt=""
                   style={{
-                    maxWidth: "25px",
-                    maxHeight: "25px",
+                    maxWidth: "15px",
+                    maxHeight: "15px",
                     borderRadius: "15px",
                   }}
                 />

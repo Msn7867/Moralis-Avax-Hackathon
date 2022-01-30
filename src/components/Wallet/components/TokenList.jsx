@@ -7,6 +7,7 @@ const styles = {
     maxHeight: "320px",
     display: "flex",
     flexDirection: "column",
+    fontSize: "14px",
     justifyContent: "space-between",
     overflow: "auto",
   },
@@ -14,15 +15,20 @@ const styles = {
     display: "flex",
     justifyContent: "flex-start",
     alignItems: "center",
+    fontSize: "14px",
     padding: "15px 20px",
     borderTop: "1px solid #e7eaf3",
     cursor: "pointer",
   },
+  h3 : {
+    fontSize: "0.90rem",
+  },
   right: {
     textAlign: "left",
     marginLeft: "15px",
+    fontSize: "14px",
   },
-  text: { display: "inline", marginRight: "10px" },
+  text: { display: "inline", marginRight: "10px", fontSize: "14px", },
 };
 export default function TokenList({ setToken }) {
   const { assets } = useERC20Balance();

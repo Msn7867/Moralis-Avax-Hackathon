@@ -58,3 +58,11 @@ textarea,
 select {
   font: inherit;
 }
+
+body {
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

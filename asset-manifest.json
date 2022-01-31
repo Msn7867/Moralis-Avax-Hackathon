@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/moralis-avax/static/css/main.1aa25da9.chunk.css",
-    "main.js": "/moralis-avax/static/js/main.7e209b20.chunk.js",
-    "main.js.map": "/moralis-avax/static/js/main.7e209b20.chunk.js.map",
+    "main.js": "/moralis-avax/static/js/main.b4dad39a.chunk.js",
+    "main.js.map": "/moralis-avax/static/js/main.b4dad39a.chunk.js.map",
     "runtime-main.js": "/moralis-avax/static/js/runtime-main.4591f41c.js",
     "runtime-main.js.map": "/moralis-avax/static/js/runtime-main.4591f41c.js.map",
     "static/css/2.797f8d39.chunk.css": "/moralis-avax/static/css/2.797f8d39.chunk.css",
-    "static/js/2.e901076a.chunk.js": "/moralis-avax/static/js/2.e901076a.chunk.js",
-    "static/js/2.e901076a.chunk.js.map": "/moralis-avax/static/js/2.e901076a.chunk.js.map",
+    "static/js/2.feac76ea.chunk.js": "/moralis-avax/static/js/2.feac76ea.chunk.js",
+    "static/js/2.feac76ea.chunk.js.map": "/moralis-avax/static/js/2.feac76ea.chunk.js.map",
     "index.html": "/moralis-avax/index.html",
     "static/css/2.797f8d39.chunk.css.map": "/moralis-avax/static/css/2.797f8d39.chunk.css.map",
     "static/css/main.1aa25da9.chunk.css.map": "/moralis-avax/static/css/main.1aa25da9.chunk.css.map",
-    "static/js/2.e901076a.chunk.js.LICENSE.txt": "/moralis-avax/static/js/2.e901076a.chunk.js.LICENSE.txt",
+    "static/js/2.feac76ea.chunk.js.LICENSE.txt": "/moralis-avax/static/js/2.feac76ea.chunk.js.LICENSE.txt",
     "static/media/antd.less": "/moralis-avax/static/media/antd.7affb7a1.less",
     "static/media/banner.24ee16b9.jpeg": "/moralis-avax/static/media/banner.24ee16b9.jpeg",
     "static/media/blob.30c47168.png": "/moralis-avax/static/media/blob.30c47168.png",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.4591f41c.js",
     "static/css/2.797f8d39.chunk.css",
-    "static/js/2.e901076a.chunk.js",
+    "static/js/2.feac76ea.chunk.js",
     "static/css/main.1aa25da9.chunk.css",
-    "static/js/main.7e209b20.chunk.js"
+    "static/js/main.b4dad39a.chunk.js"
   ]
 }
